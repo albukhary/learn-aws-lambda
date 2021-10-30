@@ -10,8 +10,7 @@ func main() {
 }
 
 func Handler(event Inputevent) (string, error) {
-	fmt.Println(event.FirstName)
-	fmt.Println(event.LastName)
+	fmt.Println("Assalamu alaykum ",event.FirstName, event.LastName)
 
 	return "It worked", nil
 }
